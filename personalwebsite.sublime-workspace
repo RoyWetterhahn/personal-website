@@ -1,0 +1,616 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bg",
+				"background-color"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"sn",
+				"snippets"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"comin",
+				"coming_soon_url"
+			],
+			[
+				"nerf",
+				"nerf_turret_url"
+			],
+			[
+				"cont",
+				"contact_url"
+			],
+			[
+				"blog",
+				"blog_url"
+			],
+			[
+				"abou",
+				"about_url"
+			],
+			[
+				"rest",
+				"restaurant_listview"
+			],
+			[
+				"a",
+				"auto_now_add"
+			],
+			[
+				"ho",
+				"HomeView"
+			],
+			[
+				"Home",
+				"HomeView"
+			],
+			[
+				"A",
+				"AboutView"
+			],
+			[
+				"B",
+				"BASE_DIR"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/templates/post_list.html",
+			"settings":
+			{
+				"buffer_size": 3069,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/static/css/home.css",
+			"settings":
+			{
+				"buffer_size": 454,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/posts/views.py",
+			"settings":
+			{
+				"buffer_size": 4094,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 500,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/about.html",
+			"settings":
+			{
+				"buffer_size": 2096,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/static/css/post_list.css",
+			"settings":
+			{
+				"buffer_size": 479,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/roy/Dev/personalwebsite",
+		"/home/roy/Dev/personalwebsite/media_cdn",
+		"/home/roy/Dev/personalwebsite/media_cdn/15",
+		"/home/roy/Dev/personalwebsite/media_cdn/16",
+		"/home/roy/Dev/personalwebsite/src",
+		"/home/roy/Dev/personalwebsite/src/personalwebsite",
+		"/home/roy/Dev/personalwebsite/src/personalwebsite/settings",
+		"/home/roy/Dev/personalwebsite/src/posts",
+		"/home/roy/Dev/personalwebsite/src/static",
+		"/home/roy/Dev/personalwebsite/src/static/css",
+		"/home/roy/Dev/personalwebsite/src/templates",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/base",
+		"/home/roy/Dev/personalwebsite/static_cdn",
+		"/home/roy/Dev/personalwebsite/static_cdn/admin",
+		"/home/roy/Dev/personalwebsite/static_cdn/admin/js",
+		"/home/roy/Dev/personalwebsite/static_cdn/css"
+	],
+	"file_history":
+	[
+		"/home/roy/Dev/personalwebsite/src/personalwebsite/urls.py",
+		"/home/roy/Dev/personalwebsite/src/mywebsite/views.py",
+		"/home/roy/Dev/personalwebsite/src/post/models.py",
+		"/home/roy/Dev/personalwebsite/src/personalwebsite/settings/base.py",
+		"/home/roy/Dev/personalwebsite/src/mywebsite/admin.py",
+		"/home/roy/Dev/personalwebsite/src/mywebsite/urls.py",
+		"/home/roy/Dev/personalwebsite/src/post/urls.py",
+		"/home/roy/Dev/personalwebsite/src/templates/base.html",
+		"/home/roy/Dev/personalwebsite/src/crud.md",
+		"/home/roy/Dev/personalwebsite/src/posts/models.py",
+		"/home/roy/Dev/personalwebsite/src/mywebsite/models.py",
+		"/home/roy/Dev/personalwebsite/src/static/css/blog.css",
+		"/home/roy/Dev/personalwebsite/src/posts/urls.py",
+		"/home/roy/Dev/personalwebsite/src/templates/old_blog.html",
+		"/home/roy/Dev/personalwebsite/src/templates/old_post_detail.html",
+		"/home/roy/Dev/personalwebsite/src/db.sqlite3",
+		"/home/roy/Dev/personalwebsite/src/templates/home2.html",
+		"/home/roy/Dev/personalwebsite/src/personalwebsite/views.py",
+		"/home/roy/Dev/personalwebsite/src/templates/about.html",
+		"/home/roy/Dev/personalwebsite/src/mywebsite/tests.py",
+		"/home/roy/Dev/personalwebsite/src/static/css/about.css",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/view_post.html",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/view_category.html",
+		"/home/roy/Dev/personalwebsite/src/templates/blog.html",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/navbar.html",
+		"/home/roy/Dev/personalwebsite/src/static/css/navbar.css",
+		"/home/roy/Dev/personalwebsite/src/templates/2p_snake_game.html",
+		"/home/roy/Dev/personalwebsite/src/static/css/home.css",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/test2.html",
+		"/home/roy/Dev/personalwebsite/static_cdn)/css/navbar.css",
+		"/home/roy/Dev/personalwebsite/static_cdn)/css/home.css",
+		"/home/roy/Dev/personalwebsite/static_cdn)/css/about.css",
+		"/home/roy/Dev/personalwebsite/lib/python3.6/site-packages/django/conf/urls/__init__.py",
+		"/home/roy/Dev/personalwebsite/src/templates/DoubleSnake.css",
+		"/home/roy/Dev/personalwebsite/src/templates/2p_snake_game.css",
+		"/home/roy/Dev/personalwebsite/src/templates/DoubleSnakeP.js",
+		"/home/roy/Dev/personalwebsite/src/templates/DoubleSnakeP.css",
+		"/home/roy/Dev/personalwebsite/src/templates/DoubleSnake.js",
+		"/home/roy/Dev/personalwebsite/src/templates/home.html",
+		"/home/roy/Dev/personalwebsite/src/static/js/2p_snake_game.js",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/2p_snake_game.css",
+		"/home/roy/Dev/personalwebsite/src/mywebsite/static/personal_website/2p_snake_game.css",
+		"/home/roy/Dev/personalwebsite/src/templates/DoubleSnake.html",
+		"/home/roy/Dev/personalwebsite/src/templates/doubleSnakeP.html",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/base/css.html",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/base/navbar.css",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/nav.html",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/navbar.css",
+		"/home/roy/Dev/personalwebsite/src/templates/nerf_turret.html",
+		"/home/roy/Dev/personalwebsite/src/templates/drink_dispenser.html",
+		"/home/roy/Dev/personalwebsite/src/templates/contact.html",
+		"/home/roy/Dev/personalwebsite/src/templates/skills.html",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/css.html",
+		"/home/roy/Dev/personalwebsite/src/templates/css.html",
+		"/home/roy/Dev/personalwebsite/src/templates/about_page.html",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/base/navbar.html",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/sidebar.html",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/test.html",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/css/navbar.css",
+		"/home/roy/Dev/personalwebsite/src/templates/mycss/css.html",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/base/js.html",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/css/css.css",
+		"/home/roy/Dev/personalwebsite/src/templates/navbar.html",
+		"/home/roy/Dev/personalwebsite/src/templates/Base/navbar.html",
+		"/home/roy/Dev/personalwebsite/lib/python3.6/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.js",
+		"/home/roy/Dev/personalwebsite/src/personalwebsite/settings/local.py",
+		"/home/roy/Dev/personalwebsite/src/manage.py",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/js.html",
+		"/home/roy/Dev/personalwebsite/src/personalwebsite/settings/__init__.py",
+		"/home/roy/Dev/personalwebsite/src/mywebsite/__init__.py",
+		"/home/roy/Dev/personalwebsite/src/personalwebsite/wsgi.py",
+		"/home/roy/Dev/personalwebsite/src/personalwebsite/old_settings.py",
+		"/home/roy/Dev/personalwebsite/src/personalwebsite/settings/production.py",
+		"/home/roy/Dev/personalwebsite/src/templates/test.html",
+		"/home/roy/Dev/personalwebsite/src/templates/snippets/css.css",
+		"/home/roy/Dev/tryDjango1.11/lib/python3.6/site-packages/django/contrib/auth/models.py",
+		"/home/roy/Dev/tryDjango1.11/src/cfehome/settings/base.py",
+		"/home/roy/Dev/tryDjango1.11/src/templates/base.html",
+		"/home/roy/Dev/tryDjango1.11/src/templates/snippets/js.html",
+		"/home/roy/Dev/tryDjango1.11/src/templates/snippets/css.html",
+		"/home/roy/Dev/tryDjango1.11/src/templates/home.html",
+		"/home/roy/Dev/tryDjango1.11/src/cfehome/settings/__init__.py",
+		"/home/roy/Dev/tryDjango1.11/src/templates/contact.html",
+		"/home/roy/Dev/tryDjango1.11/src/templates/snippets/sidebar.html",
+		"/home/roy/Dev/tryDjango1.11/src/templates/snippets/nav.html",
+		"/home/roy/Dev/tryDjango1.11/src/templates/about.html",
+		"/home/roy/Dev/tryDjango1.11/src/restaurants/models.py",
+		"/home/roy/Dev/tryDjango1.11/src/restaurants/tests.py",
+		"/home/roy/Dev/tryDjango1.11/src/restaurants/__init__.py",
+		"/home/roy/Dev/tryDjango1.11/src/restaurants/admin.py",
+		"/home/roy/Dev/tryDjango1.11/src/cfehome/urls.py",
+		"/home/roy/Dev/tryDjango1.11/src/restaurants/templates/restaurants/restaurants_list.html",
+		"/home/roy/Dev/tryDjango1.11/src/restaurants/views.py",
+		"/home/roy/Dev/tryDjango1.11/src/restaurants/apps.py",
+		"/home/roy/Dev/tryDjango1.11/src/restaurant/models.py",
+		"/home/roy/Dev/tryDjango1.11/src/restaurant/migrations/0001_initial.py"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 170.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bg",
+			"no-gutters",
+			"bg",
+			"right",
+			"row-fluid",
+			"row\"",
+			"row-fluid",
+			"bz",
+			"bg",
+			"bz",
+			"row-fluid",
+			"row\"",
+			"primary",
+			"date",
+			"col",
+			"succes",
+			"6",
+			"image",
+			"img",
+			"list",
+			"on_delete",
+			"body",
+			"blog",
+			"mywebsite.Blog",
+			"padding",
+			"p",
+			"padding",
+			"navlink",
+			"10",
+			"}\n",
+			"container",
+			"muypicky",
+			"muy",
+			"muypicky"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"bz",
+			"",
+			"bz",
+			"row",
+			"row-fluid\"",
+			"row",
+			"bg",
+			"bz",
+			"row",
+			"row-fluid\"",
+			"personalwebsite"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/templates/post_list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1108,
+								1108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 296.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/static/css/home.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/posts/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3229,
+								3229
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 276.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								500,
+								500
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/templates/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2096,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								994,
+								994
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/static/css/post_list.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 345.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 62.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "personalwebsite.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 347.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

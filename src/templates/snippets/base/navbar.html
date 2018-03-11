@@ -1,0 +1,201 @@
+{% extends "base.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% block content %}<head>
+  <style>
+  .navbar {
+  background-color: #1e1e1e;
+}
+.navbar .navbar-brand {
+  font-weight: 700;
+  color: #e80101;
+  font-family: "Tangerine", serif;
+  font-size: 185%;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #e80101;
+}
+.navbar .navbar-text {
+  color: #eaeaea;
+}
+.navbar .navbar-text a {
+  color: #e80101;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+  color: #e80101; 
+}
+.navbar .navbar-nav .nav-link {
+  color: #eaeaea;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #e80101;
+}
+.navbar .navbar-nav .dropdown-menu {
+  background-color: #1e1e1e;
+  border-color: #0b0b0b;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+  color: #eaeaea;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+  color: #e80101;
+  background-color: #0b0b0b;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-divider {
+  border-top-color: #0b0b0b;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #e80101;
+  background-color: #0b0b0b;
+}
+.navbar .navbar-toggle {
+  border-color: #0b0b0b;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #0b0b0b;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #eaeaea;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #eaeaea;
+}
+.navbar .navbar-link {
+  color: #eaeaea;
+}
+.navbar .navbar-link:hover {
+  color: #e80101;
+}
+
+@media (max-width: 575px) {
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #eaeaea;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #e80101;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #e80101;
+    background-color: #0b0b0b;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #eaeaea;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #e80101;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #e80101;
+    background-color: #0b0b0b;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #eaeaea;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #e80101;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #e80101;
+    background-color: #0b0b0b;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #eaeaea;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #e80101;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #e80101;
+    background-color: #0b0b0b;
+  }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #eaeaea;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: #e80101;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #e80101;
+  background-color: #0b0b0b;
+}
+</style>
+
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark">
+   <div class='container'>
+      <a class="navbar-brand" href="#">
+        <!--optional image-->
+        <!--<img src="http://lofrev.net/wp-content/photos/2017/05/roar_r_logo_1.png" width="40" height="40" class="d-inline-block align-centre" alt="">-->
+        Roy Wetterhahn
+      </a>
+      <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarCollapseLinks' aria-expanded='false' aria-label='Toggle Navigation'>
+        <span class='navbar-toggler-icon'></span>
+      </button>
+
+
+
+
+      <div class='collapse navbar-collapse' id='navbarCollapseLinks'>
+        <ul class='navbar-nav ml-auto'>
+          <li class='nav-item'>
+            <a href='{{ home_url }}' class='nav-link'>Home</a>
+          </li>
+          <li class='nav-item'>
+            <a href='/about/' class='nav-link'>About</a>
+          </li>
+          <li class='nav-item'>
+            <a href='{{ blog_url }}' class='nav-link'>Blog</a>
+          </li>
+          <li class='nav-item'>
+            <a href='{{ contact_url }}' class='nav-link'>contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </a>
+            <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="{{ nerf_turret_url }}">Nerf Turret</a>
+              <a class="dropdown-item" href="{{ drink_dispenser_url }}">Drink Dispenser</a>
+              <a class="dropdown-item" href="{{ coming_soon_url }}">Coming Soon</a>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+  </div>
+</nav>
+{% endblock %}

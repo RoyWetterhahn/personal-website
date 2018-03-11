@@ -1,0 +1,22 @@
+body{
+  position: relative;
+  background:#cccccc url(./images/header-background.jpg) no-repeat top center;
+  text-align: center;
+  overflow: hidden;
+  background-size: cover;
+  color: white;
+}
+.navbar {
+  background-color: transparent;
+}
+.banner_text h1{
+  color: #ba0000;
+  font: 80px/1.1em 'opensans-bold', sans-serif;
+  letter-spacing: -1px;
+  margin: 0 auto 12px auto;
+  padding-bottom: 12px;
+  padding-top: 20%;
+}
+.banner_text p{
+  color: #eeeeee;
+}

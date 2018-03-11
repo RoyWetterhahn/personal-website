@@ -1,0 +1,10 @@
+body{
+  background: #101010;
+}
+
+#about { padding: 20px 556px 60px 0; background: url(./images/graph.png) no-repeat right 63px; }
+#about p { color: #eaeaea; margin-top: 24px; font-size: 18px; line-height: 1.6; }
+#about strong { color: #fff; }
+#about a { border-bottom: 1px dashed #aaa; color: #aaa; }
+#about a:hover { text-decoration: none; color: #FBE987; border-color: #564e25; }
+#about h1 {color: #C30303;}

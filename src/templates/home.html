@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block head_title %}Home || {{ block.super }}{% endblock head_title %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static '/css/home.css' %}" type="text/css">
+<div class = "banner_text">
+<h1> Roy Wetterhahn </h1>
+<p> I'm currently a havo student, designer and a full stack developer.<br>My big passion is programming robot's of all size's.<br>If you're just here for awesome robot's please checkout my youtube channel</p>
+</div>
+{% endblock  %}
