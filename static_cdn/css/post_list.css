@@ -1,0 +1,55 @@
+p{
+    margin: 0px;
+    padding: 0px;
+}
+.top-buffer { 
+  margin-top:30px;
+   }
+.title{
+
+}
+
+.search-bar{
+  margin-left:auto;
+  margin-right:auto
+}
+
+.thumbnail{
+  padding-top : 15px;
+}
+
+.thumb-space {
+
+}
+
+.title{
+  font-size: 30px;
+
+}
+
+.post-date{
+
+  font-size: 10px;
+}
+
+.draft
+
+
+.content{
+  font-size: 16px; 
+}
+.detail_button{
+  padding: 8px;
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+

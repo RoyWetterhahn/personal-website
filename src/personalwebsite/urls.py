@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf import settings
 from django.conf.urls.static import static
-from django.conf.urls import include, url
+from django.conf.urls import url
 from django.contrib import admin
 from django.views.generic import TemplateView
 #from mywebsite.views import HomeView
@@ -27,6 +27,7 @@ urlpatterns = [
     #path('blog/', include('mywebsite.urls')),
     #url(r'^home/', HomeView.as_view()),
     url(r'^home/$', TemplateView.as_view(template_name='home.html')),
+    url(r'^$', TemplateView.as_view(template_name='home.html')),
     url(r'^contact/$', TemplateView.as_view(template_name='contact.html')),
     url(r'^about/$', TemplateView.as_view(template_name='about.html')),
     #url(r'^blog/$', TemplateView.as_view(template_name='blog.html')),

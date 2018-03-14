@@ -1,21 +1,26 @@
 {% load static %}
 <link rel="stylesheet" href="{% static 'css/navbar.css' %}" type="text/css">
-<nav class="navbar navbar-expand-md">
+<nav class="navbar navbar-expand-md navbar-light">
    <div class='container'>
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/home/">
         <!--optional image-->
         <!--<img src="http://lofrev.net/wp-content/photos/2017/05/roar_r_logo_1.png" width="40" height="40" class="d-inline-block align-centre" alt="">-->
         Roy Wetterhahn
       </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <!--<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
+  </button>-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseLinks" aria-controls="navbarCollapseLinks" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
   </button>
 
 
 
-
       <div class='collapse navbar-collapse' id='navbarCollapseLinks'>
-        <ul class='navbar-nav ml-auto mt-80'>
+        <ul class='navbar-nav ml-auto'>
+            <li class="nav-item active">
+             <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
+            </li>
           <li class='nav-item'>
             <a href='/home/' class='nav-link'>Home</a>
           </li>
@@ -38,9 +43,7 @@
               <a class="dropdown-item" href="/2p_snake_game/">2 Player snake game</a>
             </div>
           </li>
-
         </ul>
-
       </div>
   </div>
 </nav>

@@ -10,7 +10,7 @@ body{
   background-color: transparent;
 }
 .banner_text h1{
-  color: white;
+  color: #ba0000;
   font: 80px/1.1em 'opensans-bold', sans-serif;
   letter-spacing: -1px;
   margin: 0 auto 12px auto;
