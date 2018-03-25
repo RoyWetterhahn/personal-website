@@ -1,22 +1,51 @@
 body{
+  height: 100%;
   position: relative;
   background:#cccccc url(./images/header-background.jpg) no-repeat top center;
   text-align: center;
   overflow: hidden;
   background-size: cover;
-  color: white;
+  color: #1d1719;
 }
 .navbar {
   background-color: transparent;
 }
 .banner_text h1{
   color: #ba0000;
-  font: 80px/1.1em 'opensans-bold', sans-serif;
+  font: 80px 'opensans-bold', sans-serif;
   letter-spacing: -1px;
-  margin: 0 auto 12px auto;
-  padding-bottom: 12px;
+  margin: 0 auto 30px auto;
+  padding-bottom: 0;
   padding-top: 20%;
 }
 .banner_text p{
   color: #eeeeee;
+}
+@media (max-width: 767px) {
+  .banner_text h1{
+    color: #ba0000;
+    font: 50px 'opensans-bold', sans-serif;
+    letter-spacing: -1px;
+    margin: 0 auto 30px auto;
+    padding-bottom: 0;
+    padding-top: 10%;
+  }
+  .banner_text p{
+  color: #eeeeee;
+  font: 15px 'opensans-bold', sans-serif;}
+}
+
+@media (max-width: 500px) {
+  .banner_text h1{
+    color: #ba0000;
+    font: 35px 'opensans-bold', sans-serif;
+    letter-spacing: -1px;
+    padding-bottom: 2%;
+    padding-top: 32%;
+  }
+  .banner_text p{
+  color: #eeeeee;
+  font: 14px 'opensans-bold', sans-serif;
+  padding-bottom: 85%;
+}
 }

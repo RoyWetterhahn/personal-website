@@ -49,15 +49,13 @@ strong{
 .title{
 
 }
-
 .about-text{
 
 }
-
 }
 @media (max-width: 539px) {
 body{
-  background: #0d0d0d;
+  background: #323232;
 }
 p{
   padding:0;
@@ -74,28 +72,27 @@ strong{
   padding-top: 30px;
   padding-bottom: 8px;
   text-align: left;
-  text-shadow: 2px 2px #000000, 0 0px #000000, 0 -0px black;
+  text-shadow: 3px 3px #000000, 0 0px #000000, 0 -0px black;
 }
 
 .title-skills{
-
   padding-top: 25px;
   padding-bottom: 8px;
   text-align: left;
   color: #ff0000;
-   text-shadow: 2px 2px #000000, 0 0px #000000, 0 -0px black;
+   text-shadow: 3px 3px #000000, 0 0px #000000, 0 -0px black;
 
 }
 
 .about-text{
-    color: #ececec;
+    color: #eaeaea;
     font-size: 15.5px;
     line-height: 1.6;
     text-align: left;
 }
 
 .about-skills{
-    color: #ececec;
+    color: #eaeaea;
     font-size: 15.5px;
     line-height: 1.6;
     text-align: left;

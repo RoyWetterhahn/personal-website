@@ -1,10 +1,103 @@
 body{
   background: #101010;
 }
+p{
+  padding:0;
+  margin:0;
+}
+.img-stats{
 
-#about { padding: 20px 556px 60px 0; background: url(./images/graph.png) no-repeat right 63px; }
-#about p { color: #eaeaea; margin-top: 24px; font-size: 18px; line-height: 1.6; }
-#about strong { color: #fff; }
-#about a { border-bottom: 1px dashed #aaa; color: #aaa; }
-#about a:hover { text-decoration: none; color: #FBE987; border-color: #564e25; }
-#about h1 {color: #C30303;}
+}
+strong{
+  color:#ef0e0e;
+}
+.title-about{
+  color:#ff0000;
+  padding-top: 20px;
+  padding-bottom: 8px;
+  text-align: left;
+}
+
+.title-skills{
+  padding-top: 25px;
+  padding-bottom: 8px;
+  text-align: left;
+  color: #ff0000;
+}
+
+.about-text{
+    color: #ebebeb;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.about-skills{
+    color: #ebebeb;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+
+
+@media (max-width: 1139px) {
+ .img-stats{
+
+}
+
+.title{
+
+}
+
+.about-text{
+
+}
+
+}
+@media (max-width: 539px) {
+body{
+  background: #0d0d0d;
+}
+p{
+  padding:0;
+  margin:0;
+}
+.img-stats{
+
+}
+strong{
+  color:#ff0000;
+}
+.title-about{
+  color:#ff0000;
+  padding-top: 30px;
+  padding-bottom: 8px;
+  text-align: left;
+  text-shadow: 2px 2px #000000, 0 0px #000000, 0 -0px black;
+}
+
+.title-skills{
+
+  padding-top: 25px;
+  padding-bottom: 8px;
+  text-align: left;
+  color: #ff0000;
+   text-shadow: 2px 2px #000000, 0 0px #000000, 0 -0px black;
+
+}
+
+.about-text{
+    color: #ececec;
+    font-size: 15.5px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.about-skills{
+    color: #ececec;
+    font-size: 15.5px;
+    line-height: 1.6;
+    text-align: left;
+}
+}
